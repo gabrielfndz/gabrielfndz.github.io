@@ -1,58 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portifólio</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,500;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    </head>
+    <body>
     
-    <div class="divCenter"> 
-        <h1>Meu Portifólio</h1>
-        <p>Gabriel Fernandes de Oliveira<br>
-        São José dos Campos - SP
-        </p>
+
         
-    </div>
-    <div class="divCenter">
-        <img src="images/foto-gabriel.jpeg" alt="Foto do Gabriel" width="150px">
-    </div>
 
-    <div class="divCenter">
-        <p class="textDescription marginGeneral">Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Maecenas a ante aliquet, 
-            maximus sapien ut, dictum turpis. 
-            Quisque bibendum vitae ligula pharetra mollis.
-             Quisque ac nunc eu orci faucibus ornare. 
-             Fusce eu dui lacus. Duis eget ultricies dolor. 
-             Nulla rutrum pulvinar augue at luctus. 
-            Maecenas tortor arcu, pulvinar ac volutpat ut, 
-            congue non turpis.
-        </p>
-    </div>
-    <div class="divLeft marginGeneral" style="margin-top: 60px;">
-        <h3>Hard Skills</h3>
-        <ul>
-            <li>HTML/CSS/JavaScript</li>
-            <li>.Net Core</li>
-            <li>Web Design (Photoshop)</li>
+        
+        <div class="header">            
+            <div class="header-right">                
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+
+        <div class=" p-20 center placeCenter" style="margin-bottom: 40px;"> 
+            <img src="images/foto-gabriel.jpeg" class="hero-img" alt="Foto do Gabriel" >
+                    <div class="hero-divBlock">                 
+                         <h1>Olá, eu sou o Gabriel! &#128075</h1>                    
+                         <p>Desenvolvedor Web FullStack<br>
+                             São José dos Campos - SP
+                         </p> 
+                             
+                    </div>
+        </div>
+
+        <div id="sobre" class="center placeCenter ">
+            <p class="textDescription ">Meu nome é Gabriel Fernandes, tenho 22 anos e sou de São José dos Campos - SP. Desde cedo sou cercado por tecnologia e também apaixonado por design. Atualmente estudo Desenvolvimento Web FullStack na <span><a href="https://betrybe.com" target="_blank">Trybe</a></span>
+            </p>
+        
+        </div>
+
+
+        <div id="divSkills" class="divFlex placeCenter">
+            <div> 
+                <h3>Hard Skills</h3>
+                    <ul>
+                    <li>HTML/CSS/JavaScript</li>
+                    <li>.Net Core</li>
+                    <li>Photoshop</li>                
+                    </ul>
+            </div>
             
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Capacidade Analítca</li>
-            <li>Criatividade</li>
-            <li>Pensamento Crítico</li>
-            <li>Tomada de Decisão</li>
-            
-        </ul>
-    </div>
+            <div>
+              <h3>Soft Skills</h3>
+                  <ul>
+                    <li>Capacidade Analítca</li>
+                    <li>Criatividade</li>
+                    <li>Pensamento Crítico</li>
+                    <li>Tomada de Decisão</li>                
+                 </ul>
+            </div>
+        </div>
+
+        <div id="contato" class="footer center">
+            <h4>Redes Sociais</h4>
+                <a href=https://www.linkedin.com/in/dev-gabriel-oliveira/ target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/gabrielfndz" target="_blank">
+            <i class="fab fa-github"></i></a>
+        </div>
 
 
 
 
-</body>
-</html>
+    </body>
+    </html>
